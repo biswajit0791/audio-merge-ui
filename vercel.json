@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://audio-merge-api-07vx.onrender.com/api/:path*"
+    },
+    {
+      "source": "/auth/:path*",
+      "destination": "https://audio-merge-api-07vx.onrender.com/auth/:path*"
+    }
+  ]
+}
